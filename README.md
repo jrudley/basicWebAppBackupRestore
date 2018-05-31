@@ -1,2 +1,4 @@
 # basicWebAppBackupRestore
-automate azure web app basic backups with optional restore
+This script will use the kudu api to backup and restore web app wwwroot folders.
+
+
