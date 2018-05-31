@@ -1,5 +1,5 @@
 # basicWebAppBackupRestore
-This script will use the kudu api to backup and restore web app wwwroot folders.
+This script will use the kudu api to backup and restore web app wwwroot folders. This is useful for app service plans that are below standard.
 ```
 Function get-zip
 $resourceGroup = Resource group holding the web app to backup
