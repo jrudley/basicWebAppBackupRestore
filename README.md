@@ -12,8 +12,8 @@ Function set-zip
 $resourceGroup = Resource group holding the web app to restore
 $siteName = Web App name to restore
 $zipFile = Full path to zip file to restore
-$detailedDebug = Outputs the status of the restore
-$extractSleepTimeInSeconds = How long to sleep in the while loop to check the status
+$detailedDebug = (optional) Outputs the status of the restore
+$extractSleepTimeInSeconds = (optional) How long to sleep in the while loop to check the status
 ```
 Examples:
 ```
